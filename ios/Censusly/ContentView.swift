@@ -1,5 +1,5 @@
 //
-// File: ContentView.swift
+// File: ContentView.swift (MODIFIED)
 // Folder: Censusly (Main)
 //
 
@@ -23,6 +23,7 @@ struct ContentView: View {
                         }
                     }
             }
+            .navigationViewStyle(.stack)
             .sheet(isPresented: $showingAboutSheet) {
                 AboutView()
             }
