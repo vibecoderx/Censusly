@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9322438D2E5F2E3E000EB253 /* USState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322438C2E5F2E3A000EB253 /* USState.swift */; };
+		932243902E5F2E70000EB253 /* CensusAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322438F2E5F2E62000EB253 /* CensusAPIService.swift */; };
+		932243922E5F2E9B000EB253 /* StateAbbreviationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243912E5F2E93000EB253 /* StateAbbreviationHelper.swift */; };
+		932243942E5F2ECB000EB253 /* SelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243932E5F2ECB000EB253 /* SelectionViewModel.swift */; };
+		932243962E5F31E6000EB253 /* OverviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243952E5F31E0000EB253 /* OverviewData.swift */; };
+		932243982E5F31F6000EB253 /* DataDisplayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243972E5F31F6000EB253 /* DataDisplayViewModel.swift */; };
+		9322439A2E5F3889000EB253 /* County.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243992E5F3887000EB253 /* County.swift */; };
+		9322439C2E5FC4DE000EB253 /* OrientationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322439B2E5FC4DE000EB253 /* OrientationManager.swift */; };
+		932243A02E5FD580000EB253 /* VisualsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322439F2E5FD580000EB253 /* VisualsView.swift */; };
+		932243A22E5FD5A2000EB253 /* VisualizationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243A12E5FD5A2000EB253 /* VisualizationCard.swift */; };
+		932243A42E5FD5C5000EB253 /* ChartDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243A32E5FD5C5000EB253 /* ChartDataPoint.swift */; };
+		932243A62E5FE632000EB253 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243A52E5FE62F000EB253 /* Place.swift */; };
+		932243AC2E613059000EB253 /* DemographicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243AB2E613054000EB253 /* DemographicData.swift */; };
+		932243AE2E6135EF000EB253 /* SocialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243AD2E6135EC000EB253 /* SocialData.swift */; };
+		932243B02E613879000EB253 /* EconomicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243AF2E613874000EB253 /* EconomicData.swift */; };
+		932243B22E6139D2000EB253 /* HousingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932243B12E6139CF000EB253 /* HousingData.swift */; };
+		93BED9062E5C1387002FE21B /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED9012E5C12C0002FE21B /* ChartView.swift */; };
+		93BED9072E5C1392002FE21B /* DataViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED9022E5C12ED002FE21B /* DataViewModels.swift */; };
+		93BED9082E5C1398002FE21B /* CensusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED9032E5C130D002FE21B /* CensusData.swift */; };
+		93BED9092E5C139D002FE21B /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED9052E5C1349002FE21B /* SelectionView.swift */; };
+		93BED90A2E5C13A3002FE21B /* DataDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED9042E5C132C002FE21B /* DataDisplayView.swift */; };
+		93C40C722E5E6BB800FC9EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C40C6E2E5E6BB800FC9EEA /* Assets.xcassets */; };
+		93C40C732E5E6BB800FC9EEA /* CensuslyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C40C702E5E6BB800FC9EEA /* CensuslyApp.swift */; };
+		93C40C742E5E6BB800FC9EEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C40C6F2E5E6BB800FC9EEA /* ContentView.swift */; };
+		93C40C752E5E6BB800FC9EEA /* CensuslyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C40C702E5E6BB800FC9EEA /* CensuslyApp.swift */; };
+		93C40C762E5E6BB800FC9EEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C40C6F2E5E6BB800FC9EEA /* ContentView.swift */; };
+		93C40C772E5E6BB800FC9EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C40C6E2E5E6BB800FC9EEA /* Assets.xcassets */; };
+		93C40C782E5E6BB800FC9EEA /* CensuslyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C40C702E5E6BB800FC9EEA /* CensuslyApp.swift */; };
+		93C40C792E5E6BB800FC9EEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C40C6F2E5E6BB800FC9EEA /* ContentView.swift */; };
+		93C40C7A2E5E6BB800FC9EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C40C6E2E5E6BB800FC9EEA /* Assets.xcassets */; };
+		93C40C7D2E5E6BD300FC9EEA /* CensuslyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C40C7B2E5E6BD300FC9EEA /* CensuslyTests.swift */; };
+		93D1ADD82E84B6DB00683C45 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1ADD72E84B6DB00683C45 /* AboutView.swift */; };
+		93D1ADD92E84B6DB00683C45 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1ADD72E84B6DB00683C45 /* AboutView.swift */; };
+		93D1ADDA2E84B6DB00683C45 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1ADD72E84B6DB00683C45 /* AboutView.swift */; };
+		93D1ADDC2E84B95300683C45 /* AppInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1ADDB2E84B95300683C45 /* AppInfoHelper.swift */; };
+		93D2C35E2E5E79B900E65FDF /* ComparisonSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2C35D2E5E79B900E65FDF /* ComparisonSelectionView.swift */; };
+		93D9F27E2E5D65860063C03C /* CategorySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9F27D2E5D65860063C03C /* CategorySelectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93BED89B2E5C1186002FE21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BED8852E5C1184002FE21B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BED88C2E5C1184002FE21B;
+			remoteInfo = Censusly;
+		};
+		93BED8A52E5C1186002FE21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BED8852E5C1184002FE21B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BED88C2E5C1184002FE21B;
+			remoteInfo = Censusly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9322438C2E5F2E3A000EB253 /* USState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USState.swift; sourceTree = "<group>"; };
+		9322438F2E5F2E62000EB253 /* CensusAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CensusAPIService.swift; sourceTree = "<group>"; };
+		932243912E5F2E93000EB253 /* StateAbbreviationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAbbreviationHelper.swift; sourceTree = "<group>"; };
+		932243932E5F2ECB000EB253 /* SelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewModel.swift; sourceTree = "<group>"; };
+		932243952E5F31E0000EB253 /* OverviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewData.swift; sourceTree = "<group>"; };
+		932243972E5F31F6000EB253 /* DataDisplayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDisplayViewModel.swift; sourceTree = "<group>"; };
+		932243992E5F3887000EB253 /* County.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = County.swift; sourceTree = "<group>"; };
+		9322439B2E5FC4DE000EB253 /* OrientationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationManager.swift; sourceTree = "<group>"; };
+		9322439D2E5FC76D000EB253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9322439F2E5FD580000EB253 /* VisualsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualsView.swift; sourceTree = "<group>"; };
+		932243A12E5FD5A2000EB253 /* VisualizationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizationCard.swift; sourceTree = "<group>"; };
+		932243A32E5FD5C5000EB253 /* ChartDataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataPoint.swift; sourceTree = "<group>"; };
+		932243A52E5FE62F000EB253 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		932243AB2E613054000EB253 /* DemographicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemographicData.swift; sourceTree = "<group>"; };
+		932243AD2E6135EC000EB253 /* SocialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialData.swift; sourceTree = "<group>"; };
+		932243AF2E613874000EB253 /* EconomicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicData.swift; sourceTree = "<group>"; };
+		932243B12E6139CF000EB253 /* HousingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingData.swift; sourceTree = "<group>"; };
+		93BED88D2E5C1184002FE21B /* Censusly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Censusly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BED89A2E5C1186002FE21B /* CensuslyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CensuslyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BED8A42E5C1186002FE21B /* CensuslyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CensuslyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BED9012E5C12C0002FE21B /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		93BED9022E5C12ED002FE21B /* DataViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModels.swift; sourceTree = "<group>"; };
+		93BED9032E5C130D002FE21B /* CensusData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CensusData.swift; sourceTree = "<group>"; };
+		93BED9042E5C132C002FE21B /* DataDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDisplayView.swift; sourceTree = "<group>"; };
+		93BED9052E5C1349002FE21B /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		93C40C6E2E5E6BB800FC9EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93C40C6F2E5E6BB800FC9EEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93C40C702E5E6BB800FC9EEA /* CensuslyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CensuslyApp.swift; sourceTree = "<group>"; };
+		93C40C7B2E5E6BD300FC9EEA /* CensuslyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CensuslyTests.swift; sourceTree = "<group>"; };
+		93C40C7E2E5E6BE200FC9EEA /* CensuslyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CensuslyUITests.swift; sourceTree = "<group>"; };
+		93C40C7F2E5E6BE200FC9EEA /* CensuslyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CensuslyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93D1ADD72E84B6DB00683C45 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		93D1ADDB2E84B95300683C45 /* AppInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoHelper.swift; sourceTree = "<group>"; };
+		93D2C35D2E5E79B900E65FDF /* ComparisonSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonSelectionView.swift; sourceTree = "<group>"; };
+		93D9F27D2E5D65860063C03C /* CategorySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93BED88A2E5C1184002FE21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BED8972E5C1186002FE21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BED8A12E5C1186002FE21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9322438E2E5F2E5C000EB253 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9322438F2E5F2E62000EB253 /* CensusAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9322439E2E5FD573000EB253 /* Visualizations */ = {
+			isa = PBXGroup;
+			children = (
+				932243A32E5FD5C5000EB253 /* ChartDataPoint.swift */,
+				932243A12E5FD5A2000EB253 /* VisualizationCard.swift */,
+				9322439F2E5FD580000EB253 /* VisualsView.swift */,
+			);
+			path = Visualizations;
+			sourceTree = "<group>";
+		};
+		93BED8842E5C1184002FE21B = {
+			isa = PBXGroup;
+			children = (
+				9322438E2E5F2E5C000EB253 /* Services */,
+				93C40C802E5E6BE200FC9EEA /* CensuslyUITests */,
+				93C40C7C2E5E6BD300FC9EEA /* CensuslyTests */,
+				93C40C712E5E6BB800FC9EEA /* Censusly */,
+				93BED9002E5C12B1002FE21B /* Helpers */,
+				93BED8FF2E5C12A8002FE21B /* ViewModels */,
+				93BED8FE2E5C1290002FE21B /* Models */,
+				93BED8B72E5C1269002FE21B /* Views */,
+				93BED88E2E5C1184002FE21B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93BED88E2E5C1184002FE21B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BED88D2E5C1184002FE21B /* Censusly.app */,
+				93BED89A2E5C1186002FE21B /* CensuslyTests.xctest */,
+				93BED8A42E5C1186002FE21B /* CensuslyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93BED8B72E5C1269002FE21B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9322439E2E5FD573000EB253 /* Visualizations */,
+				93D2C35D2E5E79B900E65FDF /* ComparisonSelectionView.swift */,
+				93D9F27D2E5D65860063C03C /* CategorySelectionView.swift */,
+				93BED9052E5C1349002FE21B /* SelectionView.swift */,
+				93BED9042E5C132C002FE21B /* DataDisplayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93BED8FE2E5C1290002FE21B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				932243B12E6139CF000EB253 /* HousingData.swift */,
+				932243AF2E613874000EB253 /* EconomicData.swift */,
+				932243AD2E6135EC000EB253 /* SocialData.swift */,
+				932243AB2E613054000EB253 /* DemographicData.swift */,
+				932243A52E5FE62F000EB253 /* Place.swift */,
+				932243992E5F3887000EB253 /* County.swift */,
+				932243952E5F31E0000EB253 /* OverviewData.swift */,
+				9322438C2E5F2E3A000EB253 /* USState.swift */,
+				93BED9032E5C130D002FE21B /* CensusData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93BED8FF2E5C12A8002FE21B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				932243972E5F31F6000EB253 /* DataDisplayViewModel.swift */,
+				932243932E5F2ECB000EB253 /* SelectionViewModel.swift */,
+				93BED9022E5C12ED002FE21B /* DataViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		93BED9002E5C12B1002FE21B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				93D1ADDB2E84B95300683C45 /* AppInfoHelper.swift */,
+				9322439B2E5FC4DE000EB253 /* OrientationManager.swift */,
+				932243912E5F2E93000EB253 /* StateAbbreviationHelper.swift */,
+				93BED9012E5C12C0002FE21B /* ChartView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		93C40C712E5E6BB800FC9EEA /* Censusly */ = {
+			isa = PBXGroup;
+			children = (
+				93D1ADD72E84B6DB00683C45 /* AboutView.swift */,
+				9322439D2E5FC76D000EB253 /* Info.plist */,
+				93C40C6E2E5E6BB800FC9EEA /* Assets.xcassets */,
+				93C40C6F2E5E6BB800FC9EEA /* ContentView.swift */,
+				93C40C702E5E6BB800FC9EEA /* CensuslyApp.swift */,
+			);
+			path = Censusly;
+			sourceTree = "<group>";
+		};
+		93C40C7C2E5E6BD300FC9EEA /* CensuslyTests */ = {
+			isa = PBXGroup;
+			children = (
+				93C40C7B2E5E6BD300FC9EEA /* CensuslyTests.swift */,
+			);
+			path = CensuslyTests;
+			sourceTree = "<group>";
+		};
+		93C40C802E5E6BE200FC9EEA /* CensuslyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93C40C7E2E5E6BE200FC9EEA /* CensuslyUITests.swift */,
+				93C40C7F2E5E6BE200FC9EEA /* CensuslyUITestsLaunchTests.swift */,
+			);
+			path = CensuslyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93BED88C2E5C1184002FE21B /* Censusly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BED8AE2E5C1186002FE21B /* Build configuration list for PBXNativeTarget "Censusly" */;
+			buildPhases = (
+				93BED8892E5C1184002FE21B /* Sources */,
+				93BED88A2E5C1184002FE21B /* Frameworks */,
+				93BED88B2E5C1184002FE21B /* Resources */,
+				93F5CA372E64B1B500DC437D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Censusly;
+			packageProductDependencies = (
+			);
+			productName = Censusly;
+			productReference = 93BED88D2E5C1184002FE21B /* Censusly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93BED8992E5C1186002FE21B /* CensuslyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BED8B12E5C1186002FE21B /* Build configuration list for PBXNativeTarget "CensuslyTests" */;
+			buildPhases = (
+				93BED8962E5C1186002FE21B /* Sources */,
+				93BED8972E5C1186002FE21B /* Frameworks */,
+				93BED8982E5C1186002FE21B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BED89C2E5C1186002FE21B /* PBXTargetDependency */,
+			);
+			name = CensuslyTests;
+			packageProductDependencies = (
+			);
+			productName = CensuslyTests;
+			productReference = 93BED89A2E5C1186002FE21B /* CensuslyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93BED8A32E5C1186002FE21B /* CensuslyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BED8B42E5C1186002FE21B /* Build configuration list for PBXNativeTarget "CensuslyUITests" */;
+			buildPhases = (
+				93BED8A02E5C1186002FE21B /* Sources */,
+				93BED8A12E5C1186002FE21B /* Frameworks */,
+				93BED8A22E5C1186002FE21B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BED8A62E5C1186002FE21B /* PBXTargetDependency */,
+			);
+			name = CensuslyUITests;
+			packageProductDependencies = (
+			);
+			productName = CensuslyUITests;
+			productReference = 93BED8A42E5C1186002FE21B /* CensuslyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93BED8852E5C1184002FE21B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					93BED88C2E5C1184002FE21B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					93BED8992E5C1186002FE21B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 93BED88C2E5C1184002FE21B;
+					};
+					93BED8A32E5C1186002FE21B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 93BED88C2E5C1184002FE21B;
+					};
+				};
+			};
+			buildConfigurationList = 93BED8882E5C1184002FE21B /* Build configuration list for PBXProject "Censusly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93BED8842E5C1184002FE21B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 93BED88E2E5C1184002FE21B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BED88C2E5C1184002FE21B /* Censusly */,
+				93BED8992E5C1186002FE21B /* CensuslyTests */,
+				93BED8A32E5C1186002FE21B /* CensuslyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93BED88B2E5C1184002FE21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C40C7A2E5E6BB800FC9EEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BED8982E5C1186002FE21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C40C772E5E6BB800FC9EEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BED8A22E5C1186002FE21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C40C722E5E6BB800FC9EEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93F5CA372E64B1B500DC437D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Exit immediately if a command exits with a non-zero status.\nset -e\n\necho \"--- Running Build Info Script ---\"\n\n# --- Set Info.plist Path ---\nINFO_PLIST_PATH=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n\n# --- 1. Build Number (App Store Compliant) ---\n# Get the total number of commits for the build number.\nBUILD_NUMBER=$(git rev-list --count HEAD)\necho \"Build number (commit count): $BUILD_NUMBER\"\n# Update the CFBundleVersion with the new integer build number.\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"$INFO_PLIST_PATH\" || \\\n/usr/libexec/PlistBuddy -c \"Add :CFBundleVersion string $BUILD_NUMBER\" \"$INFO_PLIST_PATH\"\n\n# --- 2. Git Commit SHA (for debugging) ---\n# Get the short git commit hash.\nGIT_SHA=$(git rev-parse --short HEAD)\necho \"Git commit SHA: $GIT_SHA\"\n# Update the GitCommitSHA with the new string value.\n/usr/libexec/PlistBuddy -c \"Set :GitCommitSHA $GIT_SHA\" \"$INFO_PLIST_PATH\" || \\\n/usr/libexec/PlistBuddy -c \"Add :GitCommitSHA string $GIT_SHA\" \"$INFO_PLIST_PATH\"\n\necho \"--- Script finished successfully ---\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BED8892E5C1184002FE21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BED90A2E5C13A3002FE21B /* DataDisplayView.swift in Sources */,
+				932243AC2E613059000EB253 /* DemographicData.swift in Sources */,
+				93BED9072E5C1392002FE21B /* DataViewModels.swift in Sources */,
+				932243AE2E6135EF000EB253 /* SocialData.swift in Sources */,
+				93D1ADD82E84B6DB00683C45 /* AboutView.swift in Sources */,
+				93BED9082E5C1398002FE21B /* CensusData.swift in Sources */,
+				93D1ADDC2E84B95300683C45 /* AppInfoHelper.swift in Sources */,
+				932243982E5F31F6000EB253 /* DataDisplayViewModel.swift in Sources */,
+				93D2C35E2E5E79B900E65FDF /* ComparisonSelectionView.swift in Sources */,
+				932243B22E6139D2000EB253 /* HousingData.swift in Sources */,
+				932243A42E5FD5C5000EB253 /* ChartDataPoint.swift in Sources */,
+				932243962E5F31E6000EB253 /* OverviewData.swift in Sources */,
+				93BED9062E5C1387002FE21B /* ChartView.swift in Sources */,
+				932243902E5F2E70000EB253 /* CensusAPIService.swift in Sources */,
+				932243942E5F2ECB000EB253 /* SelectionViewModel.swift in Sources */,
+				9322439A2E5F3889000EB253 /* County.swift in Sources */,
+				9322439C2E5FC4DE000EB253 /* OrientationManager.swift in Sources */,
+				932243A62E5FE632000EB253 /* Place.swift in Sources */,
+				93D9F27E2E5D65860063C03C /* CategorySelectionView.swift in Sources */,
+				932243A22E5FD5A2000EB253 /* VisualizationCard.swift in Sources */,
+				932243922E5F2E9B000EB253 /* StateAbbreviationHelper.swift in Sources */,
+				93BED9092E5C139D002FE21B /* SelectionView.swift in Sources */,
+				9322438D2E5F2E3E000EB253 /* USState.swift in Sources */,
+				932243B02E613879000EB253 /* EconomicData.swift in Sources */,
+				93C40C782E5E6BB800FC9EEA /* CensuslyApp.swift in Sources */,
+				932243A02E5FD580000EB253 /* VisualsView.swift in Sources */,
+				93C40C792E5E6BB800FC9EEA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BED8962E5C1186002FE21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C40C752E5E6BB800FC9EEA /* CensuslyApp.swift in Sources */,
+				93D1ADDA2E84B6DB00683C45 /* AboutView.swift in Sources */,
+				93C40C762E5E6BB800FC9EEA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BED8A02E5C1186002FE21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D1ADD92E84B6DB00683C45 /* AboutView.swift in Sources */,
+				93C40C7D2E5E6BD300FC9EEA /* CensuslyTests.swift in Sources */,
+				93C40C732E5E6BB800FC9EEA /* CensuslyApp.swift in Sources */,
+				93C40C742E5E6BB800FC9EEA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93BED89C2E5C1186002FE21B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93BED88C2E5C1184002FE21B /* Censusly */;
+			targetProxy = 93BED89B2E5C1186002FE21B /* PBXContainerItemProxy */;
+		};
+		93BED8A62E5C1186002FE21B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93BED88C2E5C1184002FE21B /* Censusly */;
+			targetProxy = 93BED8A52E5C1186002FE21B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93BED8AC2E5C1186002FE21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93BED8AD2E5C1186002FE21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93BED8AF2E5C1186002FE21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Censusly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Censusly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.Censusly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93BED8B02E5C1186002FE21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Censusly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Censusly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.Censusly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93BED8B22E5C1186002FE21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CensuslyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Censusly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Censusly";
+			};
+			name = Debug;
+		};
+		93BED8B32E5C1186002FE21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CensuslyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Censusly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Censusly";
+			};
+			name = Release;
+		};
+		93BED8B52E5C1186002FE21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CensuslyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Censusly;
+			};
+			name = Debug;
+		};
+		93BED8B62E5C1186002FE21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CensuslyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Censusly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93BED8882E5C1184002FE21B /* Build configuration list for PBXProject "Censusly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BED8AC2E5C1186002FE21B /* Debug */,
+				93BED8AD2E5C1186002FE21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BED8AE2E5C1186002FE21B /* Build configuration list for PBXNativeTarget "Censusly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BED8AF2E5C1186002FE21B /* Debug */,
+				93BED8B02E5C1186002FE21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BED8B12E5C1186002FE21B /* Build configuration list for PBXNativeTarget "CensuslyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BED8B22E5C1186002FE21B /* Debug */,
+				93BED8B32E5C1186002FE21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BED8B42E5C1186002FE21B /* Build configuration list for PBXNativeTarget "CensuslyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BED8B52E5C1186002FE21B /* Debug */,
+				93BED8B62E5C1186002FE21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93BED8852E5C1184002FE21B /* Project object */;
+}
