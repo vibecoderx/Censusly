@@ -26,6 +26,43 @@
 * **📈 Historical Data & Trends:** Journey back in time. Censusly allows you to pull data from previous years, making it easy to track trends and understand the evolution of a community over time.
 * **🎨 Stunning Visualizations:** Don't just read the data—see it. Switch to our visualization mode to view metrics as dynamic line charts and informative gauges, turning raw numbers into compelling visual stories.
 
+## Screentshots
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b>See Census data points across various categories</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/1.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>Delve into a sepcific category</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/2.png" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>Compare across past years</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/9.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>Compare between any two cities/counties/state in US</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/10.png" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>See the trend visually</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/4.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>Compare the trend visually</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/8.png" width="250">
+    </td>
+  </tr>
+
+</table>
+
+
 ## 🚀 Getting Started
 
 This repository contains the full source code for the Censusly iOS application. To build and run the project on your local machine, follow these simple steps:
