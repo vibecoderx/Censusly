@@ -36,7 +36,8 @@ This repository contains the full source code for the Censusly iOS application. 
 
 2.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/censusly.git](https://github.com/your-username/censusly.git)
+    git clone
+[https://github.com/vibecoderx/censusly.git](https://github.com/vibecoderx/censusly.git)
     cd censusly/ios
     ```
 
