@@ -110,7 +110,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## 🙏 Acknowledgments
 
-This application would not be possible without the incredible public data provided by the **U.S. Census Bureau**. All data is sourced directly from their official APIs.
+This application would not be possible without the incredible public data provided by the **U.S. Census Bureau**. All data is sourced directly from their [official APIs](https://www.census.gov/data/developers/data-sets.html).
 
 ---
 
