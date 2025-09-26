@@ -50,11 +50,11 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
+    <td width="80%" align="center">
       <b>See the trend visually</b><br>
       <img src=".github/screenshots/iphone11_pro_max/4.png" width="250">
     </td>
-    <td width="50%" align="center">
+    <td width="80%" align="center">
       <b>Compare the trend visually</b><br>
       <img src=".github/screenshots/iphone11_pro_max/8.png" width="250">
     </td>
